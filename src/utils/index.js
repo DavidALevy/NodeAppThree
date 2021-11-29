@@ -2,7 +2,8 @@ const movieArr=[]
 class Movie{
     constructor(title,actor)
     {this.title=title;
-    this.actor=actor}
+    this.actor=actor;
+this.year=year;}
 
 add(){
     movieArr.push(this)
